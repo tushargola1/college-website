@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.hero{
+  width: 100%;
+  height: 70vh;
+  background:  linear-gradient(#517e86c4, #949fdf1a), url(../img/courseUG.jpg);
+  background-attachment: fixed;
+      background-size:cover;
+      background-repeat: no-repeat;
+}
+header{
+    /* position: absolute;
+    background-color:#b8b3b3; */
+    width: 100%;
+    height: 500px;
+}
+
+
+navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(22, 21, 21);
+  height: 59px;
+}
+
+.logo img {
+  position: absolute;
+  filter: invert(100);
+  top: 20px;
+  left: 70px;
+  width: 160px;
+  cursor: pointer;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+  margin: 20px 30px;
+  top: 10px;
+}
+
+ul li a {
+  color: rgb(253, 250, 250);
+  text-transform: capitalize;
+
+  font-size: 16px;
+  font-family: "Bebas Neue", cursive;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+li:hover a {
+  color: white;
+  text-decoration: underline rgb(240, 227, 227);
+  transition-delay: 0.1s;
+}
+
+.container h1{
+  position: absolute;
+  margin: -350px 140px;
+    font-size:90px;
+    color: rgb(251, 248, 248);
+    font-family: 'Secular One', sans-serif;
+}
+
+.card{
+  margin-top: 10%;
+  border-radius: 1%;
+  background: #f5f3f3;
+
+}
+
+.btn{
+  background-color: rgb(229, 194, 194);
+  background: transparent;
+  color:blue ;
+  
+}
+
+
+/* footer */
+
+
+.footerHome{
+  position: absolute;
+  background-color: #302d2d;
+  margin-top: 5%;
+  height: 540px;
+  width: 100%;
+display: flex;
+justify-content: space-around;
+cursor: pointer;
+  
+ }
+
+ .footerflex{
+font-weight: 400;
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-top: 15px;
+ }
+ #footerlist .footerr{
+  list-style: none;
+  padding: 5px 0;
+ }
+
+ #footerlist .footerr a{
+  position: relative;
+  top: 30px;
+  left: -50px;
+   text-transform: capitalize;
+   font-size: 16px;
+   color: white;
+  }
+
+  .footerr:hover a{
+    color: white;
+    text-decoration: white;
+  }
+
+.copywrite{
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  left: 44%;
+  top: 500px;
+}
+

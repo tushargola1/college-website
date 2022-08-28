@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.hero{
+  width: 100%;
+  height: 50vh;
+  background:  linear-gradient(#3c4142c4, #9ea6d31a);
+  background-attachment: fixed;
+      background-size:cover;
+      background-repeat: no-repeat;
+}
+header {
+    width: 100%;
+    height: 430px;
+    /* background-image: linear-gradient(#517e86c4, #2c3ea81a);
+  
+    background-size: cover;
+    background-repeat: no-repeat; */
+  }
+  
+
+navbar {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(10, 9, 9);
+  height: 59px;
+}
+
+.logo img {
+  position: absolute;
+
+  top: 20px;
+  left: 70px;
+  width: 160px;
+  cursor: pointer;
+  filter: invert(100);
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+  margin: 20px 30px;
+  top: 10px;
+}
+
+ul li a {
+  color: white;
+  text-transform: capitalize;
+
+  font-size: 16px;
+  font-family: "Bebas Neue", cursive;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+li:hover a {
+  color: white;
+  text-decoration: underline rgb(211, 177, 177);
+  transition-delay: 0.1s;
+}
+
+.container h1{
+    margin: -15% 40%;
+    font-size: 60px;
+    color: rgb(217, 236, 213);
+    font-family: 'Secular One', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+
+}
+.container h5{
+    position: absolute;
+  margin: 13% auto;
+  text-align: center;
+  left:680px;
+  font-size: 17px;
+}
+#horiLine{
+    position: absolute;
+    top: 31.5%;
+    width: 600px;
+    left: 480px;
+    border-top: 3px solid rgb(18, 14, 13)   ;
+  
+}
+
+.container .row #form-name{
+   
+    padding-top: 40px;
+}
+
+ #form1 .form-control{
+    padding: 12px;
+    margin-bottom: 13px;
+    background-color:white;
+}
+
+#form1 .form-control:hover{
+    background-color: whitesmoke;
+}
+
+#contact-card{
+    border: 1px solid white;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    background-color: whitesmoke;
+}
+
+.map{
+    margin-left: 11%;
+    margin-top: 24px;
+    /* width: 100px; */
+    border-radius: 10px;
+}
+
+/* footer */
+
+
+.footerHome{
+    position: absolute;
+    background-color: #302d2d;
+    margin-top: 5%;
+    height: 540px;
+    width: 100%;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+    
+   }
+  
+   .footerflex{
+    font-weight: 400;
+    color: rgb(250, 244, 244);
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 15px;
+   }
+   #footerlist .footerr{
+    list-style: none;
+    padding: 5px 0 ;
+   }
+  
+   #footerlist .footerr a{
+    position: relative;
+    top: 30px;
+    left: -50px;
+     text-transform: capitalize;
+     font-size: 16px;
+     color: white;
+    }
+  
+    .footerr:hover a{
+      color: white;
+      text-decoration: white;
+    }
+  
+  .copywrite{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    left: 44%;
+    top: 500px;
+  }
